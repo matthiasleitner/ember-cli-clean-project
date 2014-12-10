@@ -1,0 +1,1 @@
+rm -rf node_modules bower_components tmp dist && npm i && bower i

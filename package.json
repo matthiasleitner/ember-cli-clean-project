@@ -1,0 +1,27 @@
+{
+  "name": "ember-cli-clean-project",
+  "version": "0.0.0",
+  "description": "Clean ember-cli application dependencies and reinstall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" "ember-cli-clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matthiasleitner/ember-cli-clean-project.git"
+  },
+  "keywords": [
+    "ember-cli"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "ember-cli-clean": "./bin/ember-cli-clean.sh",
+  },
+  "author": "Matthias Leitner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthiasleitner/ember-cli-clean-project/issues"
+  },
+  "homepage": "https://github.com/matthiasleitner/ember-cli-clean-project"
+}
