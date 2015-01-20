@@ -1,10 +1,14 @@
+if [ ! -f .ember-cli ]
+then
+    echo "Not an ember-cli project!"
+    exit 0
+fi
+
 delDirs=("dist" "tmp" "node_modules" "bower_components")
 backupDirs=("node_modules" "bower_components")
 backupSuffix="-backup"
 
 echo "start cleaning project reseting and generated files"
-
-
 
 
 while test $# -gt 0; do
