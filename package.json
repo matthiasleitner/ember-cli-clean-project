@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clean-project",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Clean ember-cli application dependencies and reinstall",
   "main": "index.js",
   "scripts": {
