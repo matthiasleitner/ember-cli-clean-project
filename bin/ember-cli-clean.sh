@@ -51,3 +51,8 @@ do
    rm -rf $dir
 done
 
+echo "Install node modules"
+npm i
+echo "Installing bower components"
+bower i
+
